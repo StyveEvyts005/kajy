@@ -1,0 +1,168 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+nav{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background-color: white;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+}
+nav img{
+   position: absolute;
+   right: 0;
+   margin-right: 20px;
+}
+
+#contenair-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+#contenair-1 p{
+    margin-top: 8px;
+}
+
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all h2{
+   margin-top: 50px;
+}
+
+#contenair-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(29, 104, 190);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    box-shadow: 0px 0px 20px rgb(20, 52, 156);
+}
+#ajouter{
+    background-color: rgb(14, 179, 14);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: white;
+    box-shadow: 5px 6px 10px rgb(79, 139, 44);
+}
+#retirer{
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: white;
+    box-shadow: 5px 6px 10px rgb(121, 35, 35);
+}
+
+#contenair-3 input{
+    margin-bottom: 20px;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#contenair-4{
+    background-color: white;
+    border: 1px solid black;
+    min-height: 200px ;
+    min-width: 500px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.contenair-41{
+    display: flex;
+    justify-content: space-between;
+   margin: 10px 20px;
+    height: 40px;
+}
+#contenair-4 button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    box-shadow: 6px 5px 10px rgb(202, 152, 152);
+}
+#reset{
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    box-shadow: 5px 6px 10px rgb(121, 35, 35);
+    margin-bottom: 50px;
+}
+
+.overlay{
+    position: fixed;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background-color: rgba(62, 69, 85, 0.7);
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(31, 30, 30);
+}
+.overlay button{
+    margin-left: 150px;
+
+}
+.sousOverlay1{
+    margin-left: 30px ;
+    margin-top: 40px;
+}
+.sousOverlay2{
+    margin-left: 30px ;
+    margin-top: 20px;
+
+} 
+.sousOverlay1 input{
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+.sousOverlay2 input{
+    margin-left: 22px ;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+
+} 
+
+    
+.close{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(62, 69, 85, 0);
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#sv{
+    background-color: rgb(14, 158, 14);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 35px;
+    width: 90px;
+}
